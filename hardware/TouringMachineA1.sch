@@ -14238,39 +14238,32 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="VR2" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT" device="_"/>
-<part name="VR1" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT" device="_"/>
-<part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1" value="PTH-6.0MM"/>
-<part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" value="WS2812B5050"/>
-<part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" value="WS2812B5050"/>
-<part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" value="WS2812B5050"/>
-<part name="LED4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" value="WS2812B5050"/>
-<part name="LED5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" value="WS2812B5050"/>
-<part name="LED6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" value="WS2812B5050"/>
-<part name="LED7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" value="WS2812B5050"/>
-<part name="LED8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" value="WS2812B5050"/>
+<part name="VR2" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT" device="_" override_package3d_urn="urn:adsk.eagle:package:22891949/2" override_package_urn="urn:adsk.eagle:footprint:22891950/1"/>
+<part name="VR1" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT" device="_" override_package3d_urn="urn:adsk.eagle:package:22891957/2" override_package_urn="urn:adsk.eagle:footprint:22891958/1"/>
+<part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1" override_package3d_urn="urn:adsk.eagle:package:22891922/2" override_package_urn="urn:adsk.eagle:footprint:40103/1" value="PTH-6.0MM"/>
+<part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" override_package3d_urn="urn:adsk.eagle:package:22891971/2" override_package_urn="urn:adsk.eagle:footprint:6240299/1" value="WS2812B5050"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J1" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6"/>
-<part name="J2" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6"/>
-<part name="J3" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6"/>
-<part name="J4" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6"/>
+<part name="J1" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6" override_package3d_urn="urn:adsk.eagle:package:22891733/2" override_package_urn="urn:adsk.eagle:footprint:22891735/1"/>
+<part name="J2" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6" override_package3d_urn="urn:adsk.eagle:package:22891852/2" override_package_urn="urn:adsk.eagle:footprint:22891853/1"/>
+<part name="J3" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6" override_package3d_urn="urn:adsk.eagle:package:22891723/2" override_package_urn="urn:adsk.eagle:footprint:22891724/1"/>
+<part name="J4" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6" override_package3d_urn="urn:adsk.eagle:package:22891847/2" override_package_urn="urn:adsk.eagle:footprint:22891848/1"/>
 <part name="PCB1" library="EurorackModularParts" deviceset="EURORACK_PCB" device="6HP"/>
-<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
+<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" override_package3d_urn="urn:adsk.eagle:package:22892003/2" override_package_urn="urn:adsk.eagle:footprint:37678/1"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="U$2" library="EurorackModularParts" deviceset="POWER_SIMPLE" device="10-OTHERSIDE"/>
+<part name="J5" library="EurorackModularParts" deviceset="POWER_SIMPLE" device="10-OTHERSIDE"/>
 <part name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SOD-123" package3d_urn="urn:adsk.eagle:package:6240753/1" value="1N5819HW"/>
 <part name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SOD-123" package3d_urn="urn:adsk.eagle:package:6240753/1" value="1N5819HW"/>
-<part name="U$3" library="todstuff" library_urn="urn:adsk.eagle:library:1731349" deviceset="ADAFRUIT_ITSYBITSYM4_SIDES" device="SOUT" value="ADAFRUIT_ITSYBITSYM4_SIDESSOUT"/>
-<part name="S2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1" value="PTH-6.0MM"/>
+<part name="U$3" library="todstuff" library_urn="urn:adsk.eagle:library:1731349" deviceset="ADAFRUIT_ITSYBITSYM4_SIDES" device="SOUT" override_package3d_urn="urn:adsk.eagle:package:22892004/2" override_package_urn="urn:adsk.eagle:footprint:22892005/1" value="ADAFRUIT_ITSYBITSYM4_SIDESSOUT"/>
+<part name="S2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1" override_package3d_urn="urn:adsk.eagle:package:22891936/2" override_package_urn="urn:adsk.eagle:footprint:40103/1" value="PTH-6.0MM"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U1" library="MusicThingModular" deviceset="MCP6002" device="_"/>
-<part name="U2" library="MusicThingModular" deviceset="TL072" device="_SMD"/>
+<part name="U1" library="MusicThingModular" deviceset="MCP6002" device="_" override_package3d_urn="urn:adsk.eagle:package:22892093/2" override_package_urn="urn:adsk.eagle:footprint:22892094/1"/>
+<part name="U2" library="MusicThingModular" deviceset="TL072" device="_SMD" override_package3d_urn="urn:adsk.eagle:package:22892082/2" override_package_urn="urn:adsk.eagle:footprint:22892083/1"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14340,9 +14333,17 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U$1" library="halcyonmod_Switches" deviceset="ENCODER_SW" device=""/>
+<part name="U$1" library="halcyonmod_Switches" deviceset="ENCODER_SW" device="" override_package3d_urn="urn:adsk.eagle:package:22891623/2" override_package_urn="urn:adsk.eagle:footprint:22891624/1"/>
 <part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15R" package3d_urn="urn:adsk.eagle:package:27968/1"/>
+<part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15R" package3d_urn="urn:adsk.eagle:package:27968/1"/>
+<part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" override_package3d_urn="urn:adsk.eagle:package:22891971/2" override_package_urn="urn:adsk.eagle:footprint:6240299/1" value="WS2812B5050"/>
+<part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" override_package3d_urn="urn:adsk.eagle:package:22891971/2" override_package_urn="urn:adsk.eagle:footprint:6240299/1" value="WS2812B5050"/>
+<part name="LED4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" override_package3d_urn="urn:adsk.eagle:package:22891971/2" override_package_urn="urn:adsk.eagle:footprint:6240299/1" value="WS2812B5050"/>
+<part name="LED5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" override_package3d_urn="urn:adsk.eagle:package:22891971/2" override_package_urn="urn:adsk.eagle:footprint:6240299/1" value="WS2812B5050"/>
+<part name="LED6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" override_package3d_urn="urn:adsk.eagle:package:22891971/2" override_package_urn="urn:adsk.eagle:footprint:6240299/1" value="WS2812B5050"/>
+<part name="LED7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" override_package3d_urn="urn:adsk.eagle:package:22891971/2" override_package_urn="urn:adsk.eagle:footprint:6240299/1" value="WS2812B5050"/>
+<part name="LED8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1" override_package3d_urn="urn:adsk.eagle:package:22891971/2" override_package_urn="urn:adsk.eagle:footprint:6240299/1" value="WS2812B5050"/>
 </parts>
 <sheets>
 <sheet>
@@ -14362,13 +14363,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="25.908" y="121.92" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="LED1" gate="G$1" x="157.48" y="187.96" smashed="yes"/>
-<instance part="LED2" gate="G$1" x="187.96" y="187.96" smashed="yes"/>
-<instance part="LED3" gate="G$1" x="218.44" y="187.96" smashed="yes"/>
-<instance part="LED4" gate="G$1" x="248.92" y="187.96" smashed="yes"/>
-<instance part="LED5" gate="G$1" x="157.48" y="149.86" smashed="yes"/>
-<instance part="LED6" gate="G$1" x="187.96" y="149.86" smashed="yes"/>
-<instance part="LED7" gate="G$1" x="218.44" y="149.86" smashed="yes"/>
-<instance part="LED8" gate="G$1" x="248.92" y="149.86" smashed="yes"/>
 <instance part="GND1" gate="1" x="157.48" y="175.26" smashed="yes">
 <attribute name="VALUE" x="154.94" y="172.72" size="1.778" layer="96"/>
 </instance>
@@ -14404,7 +14398,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="U$2" gate="G$1" x="12.7" y="30.48" smashed="yes">
+<instance part="J5" gate="G$1" x="12.7" y="30.48" smashed="yes">
 <attribute name="NAME" x="7.366" y="36.576" size="1.27" layer="95"/>
 </instance>
 <instance part="D1" gate="G$1" x="27.94" y="43.18" smashed="yes">
@@ -14437,11 +14431,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </instance>
 <instance part="U1" gate="A" x="137.16" y="78.74" smashed="yes" rot="MR180">
 <attribute name="NAME" x="139.7" y="75.565" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="139.7" y="83.82" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="139.7" y="73.66" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="U1" gate="B" x="137.16" y="45.72" smashed="yes" rot="MR180">
 <attribute name="NAME" x="139.7" y="42.545" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="139.7" y="50.8" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="139.7" y="40.64" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="U2" gate="A" x="208.28" y="109.22" smashed="yes" rot="MR180">
 <attribute name="NAME" x="210.82" y="106.045" size="1.778" layer="95" rot="MR180"/>
@@ -14590,12 +14584,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="224.79" y="74.7014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="224.79" y="79.502" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U2" gate="P" x="208.28" y="55.88" smashed="yes"/>
-<instance part="GND19" gate="1" x="208.28" y="45.72" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="210.82" y="43.18" size="1.778" layer="96" rot="MR0"/>
+<instance part="U2" gate="P" x="236.22" y="53.34" smashed="yes"/>
+<instance part="GND19" gate="1" x="236.22" y="43.18" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="238.76" y="40.64" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="P+4" gate="1" x="208.28" y="66.04" smashed="yes">
-<attribute name="VALUE" x="205.74" y="60.96" size="1.778" layer="96" rot="R90"/>
+<instance part="P+4" gate="1" x="236.22" y="68.58" smashed="yes">
+<attribute name="VALUE" x="233.68" y="63.5" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C7" gate="G$1" x="205.74" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="205.359" y="120.904" size="1.778" layer="95" rot="R90"/>
@@ -14626,26 +14620,26 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND21" gate="1" x="170.18" y="190.5" smashed="yes">
 <attribute name="VALUE" x="167.64" y="187.96" size="1.778" layer="96"/>
 </instance>
-<instance part="C12" gate="G$1" x="200.66" y="198.12" smashed="yes">
-<attribute name="NAME" x="202.184" y="198.501" size="1.778" layer="95"/>
-<attribute name="VALUE" x="202.184" y="193.421" size="1.778" layer="96"/>
+<instance part="C12" gate="G$1" x="198.12" y="198.12" smashed="yes">
+<attribute name="NAME" x="199.644" y="198.501" size="1.778" layer="95"/>
+<attribute name="VALUE" x="199.644" y="193.421" size="1.778" layer="96"/>
 </instance>
-<instance part="GND22" gate="1" x="200.66" y="190.5" smashed="yes">
-<attribute name="VALUE" x="198.12" y="187.96" size="1.778" layer="96"/>
+<instance part="GND22" gate="1" x="198.12" y="190.5" smashed="yes">
+<attribute name="VALUE" x="195.58" y="187.96" size="1.778" layer="96"/>
 </instance>
-<instance part="C13" gate="G$1" x="231.14" y="198.12" smashed="yes">
-<attribute name="NAME" x="232.664" y="198.501" size="1.778" layer="95"/>
-<attribute name="VALUE" x="232.664" y="193.421" size="1.778" layer="96"/>
+<instance part="C13" gate="G$1" x="228.6" y="198.12" smashed="yes">
+<attribute name="NAME" x="230.124" y="198.501" size="1.778" layer="95"/>
+<attribute name="VALUE" x="230.124" y="193.421" size="1.778" layer="96"/>
 </instance>
-<instance part="GND23" gate="1" x="231.14" y="190.5" smashed="yes">
-<attribute name="VALUE" x="228.6" y="187.96" size="1.778" layer="96"/>
+<instance part="GND23" gate="1" x="228.6" y="190.5" smashed="yes">
+<attribute name="VALUE" x="226.06" y="187.96" size="1.778" layer="96"/>
 </instance>
-<instance part="C14" gate="G$1" x="261.62" y="198.12" smashed="yes">
-<attribute name="NAME" x="263.144" y="198.501" size="1.778" layer="95"/>
-<attribute name="VALUE" x="263.144" y="193.421" size="1.778" layer="96"/>
+<instance part="C14" gate="G$1" x="259.08" y="198.12" smashed="yes">
+<attribute name="NAME" x="260.604" y="198.501" size="1.778" layer="95"/>
+<attribute name="VALUE" x="260.604" y="193.421" size="1.778" layer="96"/>
 </instance>
-<instance part="GND24" gate="1" x="261.62" y="190.5" smashed="yes">
-<attribute name="VALUE" x="259.08" y="187.96" size="1.778" layer="96"/>
+<instance part="GND24" gate="1" x="259.08" y="190.5" smashed="yes">
+<attribute name="VALUE" x="256.54" y="187.96" size="1.778" layer="96"/>
 </instance>
 <instance part="C15" gate="G$1" x="170.18" y="160.02" smashed="yes">
 <attribute name="NAME" x="171.704" y="160.401" size="1.778" layer="95"/>
@@ -14699,66 +14693,43 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="88.9" y="137.668" size="1.778" layer="95"/>
 <attribute name="VALUE" x="88.9" y="114.427" size="1.778" layer="96"/>
 </instance>
-<instance part="C9" gate="G$1" x="213.36" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="211.836" y="55.499" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="211.836" y="60.579" size="1.778" layer="96" rot="R180"/>
+<instance part="C9" gate="G$1" x="241.3" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="242.824" y="51.181" size="1.778" layer="95"/>
+<attribute name="VALUE" x="247.396" y="58.039" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="TP1" gate="G$1" x="86.36" y="20.32" smashed="yes">
 <attribute name="NAME" x="85.09" y="21.59" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="87.63" y="19.05" size="1.778" layer="97"/>
 </instance>
+<instance part="TP2" gate="G$1" x="198.12" y="58.42" smashed="yes">
+<attribute name="NAME" x="196.85" y="59.69" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="199.39" y="57.15" size="1.778" layer="97"/>
+</instance>
+<instance part="LED2" gate="G$1" x="185.42" y="187.96" smashed="yes"/>
+<instance part="LED3" gate="G$1" x="215.9" y="187.96" smashed="yes"/>
+<instance part="LED4" gate="G$1" x="246.38" y="187.96" smashed="yes"/>
+<instance part="LED5" gate="G$1" x="157.48" y="149.86" smashed="yes"/>
+<instance part="LED6" gate="G$1" x="187.96" y="149.86" smashed="yes"/>
+<instance part="LED7" gate="G$1" x="218.44" y="149.86" smashed="yes"/>
+<instance part="LED8" gate="G$1" x="248.92" y="149.86" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="DO"/>
-<pinref part="LED4" gate="G$1" pin="DI"/>
-<wire x1="236.22" y1="185.42" x2="231.14" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="DI"/>
 <pinref part="LED1" gate="G$1" pin="DO"/>
-<wire x1="170.18" y1="185.42" x2="175.26" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="DO"/>
-<pinref part="LED3" gate="G$1" pin="DI"/>
-<wire x1="200.66" y1="185.42" x2="205.74" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="LED7" gate="G$1" pin="DO"/>
-<pinref part="LED8" gate="G$1" pin="DI"/>
-<wire x1="236.22" y1="147.32" x2="231.14" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="LED6" gate="G$1" pin="DI"/>
-<pinref part="LED5" gate="G$1" pin="DO"/>
-<wire x1="175.26" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="LED6" gate="G$1" pin="DO"/>
-<pinref part="LED7" gate="G$1" pin="DI"/>
-<wire x1="205.74" y1="147.32" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="185.42" x2="172.72" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="DI"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="LED4" gate="G$1" pin="DO"/>
 <wire x1="261.62" y1="185.42" x2="261.62" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="170.18" x2="144.78" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="170.18" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="LED4" gate="G$1" pin="DO"/>
+<wire x1="259.08" y1="185.42" x2="261.62" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="LED5" gate="G$1" pin="DI"/>
 </segment>
 </net>
@@ -14766,28 +14737,29 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="LED1" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="LED2" gate="G$1" pin="GND"/>
-<wire x1="187.96" y1="177.8" x2="157.48" y2="177.8" width="0.1524" layer="91"/>
 <junction x="157.48" y="177.8"/>
-<pinref part="LED4" gate="G$1" pin="GND"/>
-<wire x1="248.92" y1="177.8" x2="218.44" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="GND"/>
+<wire x1="246.38" y1="177.8" x2="215.9" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="177.8" x2="185.42" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="177.8" x2="157.48" y2="177.8" width="0.1524" layer="91"/>
+<junction x="185.42" y="177.8"/>
 <pinref part="LED3" gate="G$1" pin="GND"/>
-<junction x="218.44" y="177.8"/>
-<wire x1="218.44" y1="177.8" x2="187.96" y2="177.8" width="0.1524" layer="91"/>
-<junction x="187.96" y="177.8"/>
+<junction x="215.9" y="177.8"/>
+<pinref part="LED4" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="LED5" gate="G$1" pin="GND"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="LED8" gate="G$1" pin="GND"/>
-<pinref part="LED7" gate="G$1" pin="GND"/>
-<wire x1="248.92" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="LED5" gate="G$1" pin="GND"/>
+<junction x="157.48" y="139.7"/>
 <pinref part="LED6" gate="G$1" pin="GND"/>
+<wire x1="248.92" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="139.7" x2="187.96" y2="139.7" width="0.1524" layer="91"/>
-<junction x="218.44" y="139.7"/>
 <wire x1="187.96" y1="139.7" x2="157.48" y2="139.7" width="0.1524" layer="91"/>
 <junction x="187.96" y="139.7"/>
-<junction x="157.48" y="139.7"/>
+<pinref part="LED7" gate="G$1" pin="GND"/>
+<junction x="218.44" y="139.7"/>
+<pinref part="LED8" gate="G$1" pin="GND"/>
+<junction x="248.92" y="139.7"/>
 </segment>
 <segment>
 <pinref part="J6" gate="J$1" pin="3"/>
@@ -14796,7 +14768,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="J5" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="VR2" gate="G$1" pin="A"/>
@@ -14882,9 +14854,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U2" gate="P" pin="V-"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="48.26" x2="213.36" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="48.26" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
-<junction x="208.28" y="48.26"/>
+<wire x1="236.22" y1="45.72" x2="241.3" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="45.72" x2="241.3" y2="50.8" width="0.1524" layer="91"/>
+<junction x="236.22" y="45.72"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
@@ -14929,7 +14901,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="+12V"/>
+<pinref part="J5" gate="G$1" pin="+12V"/>
 <wire x1="22.86" y1="33.02" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
@@ -14937,7 +14909,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="-12V"/>
+<pinref part="J5" gate="G$1" pin="-12V"/>
 <wire x1="22.86" y1="27.94" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="17.78" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
@@ -14986,49 +14958,36 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="VLED" class="0">
 <segment>
-<pinref part="LED4" gate="G$1" pin="VDD"/>
-<pinref part="LED3" gate="G$1" pin="VDD"/>
-<wire x1="254" y1="203.2" x2="231.14" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="VDD"/>
-<wire x1="231.14" y1="203.2" x2="223.52" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="203.2" x2="200.66" y2="203.2" width="0.1524" layer="91"/>
-<junction x="223.52" y="203.2"/>
+<wire x1="259.08" y1="203.2" x2="251.46" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="203.2" x2="228.6" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="203.2" x2="220.98" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="VDD"/>
-<wire x1="200.66" y1="203.2" x2="193.04" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="203.2" x2="170.18" y2="203.2" width="0.1524" layer="91"/>
-<junction x="193.04" y="203.2"/>
+<wire x1="220.98" y1="203.2" x2="198.12" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="203.2" x2="190.5" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="203.2" x2="170.18" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="203.2" x2="162.56" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="203.2" x2="147.32" y2="203.2" width="0.1524" layer="91"/>
 <junction x="162.56" y="203.2"/>
 <label x="149.86" y="203.2" size="1.778" layer="95"/>
-<pinref part="LED8" gate="G$1" pin="VDD"/>
-<pinref part="LED7" gate="G$1" pin="VDD"/>
+<wire x1="261.62" y1="165.1" x2="254" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="254" y1="165.1" x2="231.14" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="LED6" gate="G$1" pin="VDD"/>
 <wire x1="231.14" y1="165.1" x2="223.52" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="165.1" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
-<junction x="223.52" y="165.1"/>
-<pinref part="LED5" gate="G$1" pin="VDD"/>
 <wire x1="200.66" y1="165.1" x2="193.04" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="165.1" x2="170.18" y2="165.1" width="0.1524" layer="91"/>
-<junction x="193.04" y="165.1"/>
 <wire x1="170.18" y1="165.1" x2="162.56" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="254" y1="165.1" x2="261.62" y2="165.1" width="0.1524" layer="91"/>
-<junction x="254" y="165.1"/>
-<wire x1="261.62" y1="165.1" x2="274.32" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="165.1" x2="274.32" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="203.2" x2="261.62" y2="203.2" width="0.1524" layer="91"/>
-<junction x="254" y="203.2"/>
+<wire x1="261.62" y1="165.1" x2="269.24" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="165.1" x2="269.24" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="203.2" x2="259.08" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="203.2" x2="254" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="200.66" x2="170.18" y2="203.2" width="0.1524" layer="91"/>
 <junction x="170.18" y="203.2"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="200.66" x2="200.66" y2="203.2" width="0.1524" layer="91"/>
-<junction x="200.66" y="203.2"/>
+<wire x1="198.12" y1="200.66" x2="198.12" y2="203.2" width="0.1524" layer="91"/>
+<junction x="198.12" y="203.2"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="200.66" x2="231.14" y2="203.2" width="0.1524" layer="91"/>
-<junction x="231.14" y="203.2"/>
+<wire x1="228.6" y1="200.66" x2="228.6" y2="203.2" width="0.1524" layer="91"/>
+<junction x="228.6" y="203.2"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="162.56" x2="170.18" y2="165.1" width="0.1524" layer="91"/>
 <junction x="170.18" y="165.1"/>
@@ -15042,8 +15001,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="261.62" y1="162.56" x2="261.62" y2="165.1" width="0.1524" layer="91"/>
 <junction x="261.62" y="165.1"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="200.66" x2="261.62" y2="203.2" width="0.1524" layer="91"/>
-<junction x="261.62" y="203.2"/>
+<wire x1="259.08" y1="200.66" x2="259.08" y2="203.2" width="0.1524" layer="91"/>
+<junction x="259.08" y="203.2"/>
+<pinref part="LED2" gate="G$1" pin="VDD"/>
+<junction x="190.5" y="203.2"/>
+<pinref part="LED3" gate="G$1" pin="VDD"/>
+<junction x="220.98" y="203.2"/>
+<pinref part="LED4" gate="G$1" pin="VDD"/>
+<junction x="251.46" y="203.2"/>
+<pinref part="LED5" gate="G$1" pin="VDD"/>
+<pinref part="LED6" gate="G$1" pin="VDD"/>
+<junction x="193.04" y="165.1"/>
+<pinref part="LED7" gate="G$1" pin="VDD"/>
+<junction x="223.52" y="165.1"/>
+<pinref part="LED8" gate="G$1" pin="VDD"/>
+<junction x="254" y="165.1"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VHI"/>
@@ -15106,9 +15078,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U2" gate="P" pin="V+"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="63.5" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="63.5" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<junction x="208.28" y="63.5"/>
+<wire x1="236.22" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="66.04" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
+<junction x="236.22" y="66.04"/>
+<wire x1="236.22" y1="66.04" x2="236.22" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -15386,9 +15359,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="58.42" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="55.88" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="55.88" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="55.88" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
 <junction x="180.34" y="55.88"/>
 <label x="185.42" y="55.88" size="1.778" layer="95"/>
+<pinref part="TP2" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="U2" gate="B" pin="+IN"/>
@@ -15470,6 +15444,41 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="66.04" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="DO"/>
+<pinref part="LED3" gate="G$1" pin="DI"/>
+<wire x1="203.2" y1="185.42" x2="198.12" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="LED3" gate="G$1" pin="DO"/>
+<pinref part="LED4" gate="G$1" pin="DI"/>
+<wire x1="233.68" y1="185.42" x2="228.6" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="LED5" gate="G$1" pin="DO"/>
+<pinref part="LED6" gate="G$1" pin="DI"/>
+<wire x1="175.26" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="LED6" gate="G$1" pin="DO"/>
+<pinref part="LED7" gate="G$1" pin="DI"/>
+<wire x1="205.74" y1="147.32" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="LED7" gate="G$1" pin="DO"/>
+<pinref part="LED8" gate="G$1" pin="DI"/>
+<wire x1="236.22" y1="147.32" x2="231.14" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -15494,6 +15503,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
